@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PH Tube</title>
+
+    <!-- DaisyUi link -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@latest/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="w-11/12 mx-auto py-3 flex justify-between items-center border-b">
+            <div class=" logo w-[100px]">
+                <img src="assets/Logo.png" alt="">
+            </div>
+            <div class="search">
+                <input type="text" placeholder="Type here" class="input input-bordered w-full max-w-xs" />
+            </div>
+            <div class="sort">
+                <div class="btn">SORT</div>
+            </div>
+        </nav>
+    </header>
+    <nav id="categories" class="py-3 flex gap-5 justify-center">
+       
+    </nav>
+    <main>
+        <section id="videos" class="w-11/12 mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 py-10"></section>
+    </main>
+
+
+
+  <script src="scripts/video.js"></script>  
+</body>
+</html>
